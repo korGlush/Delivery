@@ -95,6 +95,11 @@ body {
     color: #fff;
     border: 1px solid #c2cbd3
 }
+.button--primary:hover{
+transform: translateY(-10px);
+}
+
+
 
 .button__cart {  
     background: url(../img/Trash.svg) no-repeat 16px center;
@@ -102,6 +107,10 @@ body {
 
 .button--secondary {
     border: 1px solid #7a7070;
+}
+.button--secondary:hover{
+ transform: translateY(-10px);   
+
 }
 
 .promo__block {
@@ -340,6 +349,10 @@ transform: rotate(15deg);
 .social-link .inst {
     margin-left: 0;
 }
+.social-link:hover{
+transform: scale(0.8);
+}
+
 
 /*модальное окно*/
 .modal {
